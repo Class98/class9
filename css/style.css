@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0}
+body{font-family: 'PT Sans', sans-serif;}
+header{min-height: 100px;border-top: 12px solid #A292B3}
+.wrapper{ width: 1000px;margin: 0 auto; min-height: 100px;}
+.logo{float: left;  width: 20%;height: 100px; text-align: left;margin:15px 0px;}
+.logo img{}
+.menu{float: right; color: black; width: 70%;text-align: right;}
+.menu ul{list-style: none;}
+.menu ul li{display: inline-block;}
+.menu ul li a{color: #545454; text-decoration: none;font-size: 20px; padding: 37px 55px; display: block;text-align: right;}
+.menu ul li a:last-child{padding-right: 0;}
+.menu ul li a img{margin-right:6px;}
+.bannar{min-height: 475px;}
+.bannar_wrapper{overflow: hidden;min-height: 475px; width: 1000px; background-image: url(../img/bannar.jpg);position: absolute;top: 0%; right: 50%;transform: translate(50%,23%)}
+
+.bannar1{min-height: 100px; margin-top: 190px;width: 100%;}
+.left{float: left; width:20px;text-align:left;font-weight: 400;}
+c{color: #82699d; font-weight: bold;}
+.bannar_text{float: left;width: 600px;  text-align: center;min-height: 100px; margin:-30px 173px;}
+.bannar_text h1{color: white; font-size: 60px; text-shadow: 10px 10px gray;}
+.bannar_text h1{color: white; font-size: 60px; text-shadow: 4px 2px black;}
+.bannar_text h{color: white; font-size: 24px;font-family: 'Josefin Sans', sans-serif;}
+.right{float: left;width: 20px;text-align:right;}
+
+.mainbody{width: 1000px; min-height: 660px;margin: 0 auto;}
+.sttext{min-height: 100px;margin: 30px 0px;border-top: 2px solid #CECECE;border-bottom: 2px solid #CECECE;box-sizing: border-box;}
+.sttext p{width: 80%; margin: 0 auto;text-align: center;color: #676768;font-size: 18px;font-style: italic;}
+.part2{ min-height: 315px;}
+.mainimg{float: left;width: 20%;margin-left: 5%; margin-right: 5%;}
+.mainimgtext{float: right; width: 60%;padding-top: 60px; color: #a292b3;}
+.mainimgtext h1{ color: #676768;font-size: 24px;}
+.mainimgtext r{float: right;}
+footer{min-height: 72px;border-bottom: 12px solid #A292B3;box-sizing: border-box;background-color:#e7e7e7;}
+.footer{width: 1000px; min-height: 60px;margin: 0 auto;background-color:#e7e7e7; }
+.footertext{float: left;width: 50%;margin: 20px;color: gray;}
+.social{float: right; width: 30%;text-align: right;}
+.social img{margin: 15px 10px;}
+.social img{padding-right: 0px;}
+
+
